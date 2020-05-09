@@ -1,0 +1,218 @@
+body {
+  background-color: #fffded;
+  color: #5b5236;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px;
+}
+
+li {
+  display: inline;
+  font-size: 1em;
+  padding: 0 4em;
+}
+
+a{
+  color: #5b5236;
+}
+
+h2 {
+  padding-bottom: 5%;
+}
+h4 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.logo.img-fluid{
+  width: 150px;
+  margin-bottom: -3%;
+}
+.img-fluid.bg.top {
+  width: 100%;
+  position:relative ;
+  margin: -28% auto 0%;
+  z-index: -1;
+}
+
+.navbar{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-top: -40%;
+}
+
+
+
+div.jumbotron.top {
+  position: relative;
+  width: 75%;
+  padding: 2%;
+  margin: -27% auto 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.6);
+}
+.jumbotron h1{
+  font-size: 3.5em;
+}
+
+#services.container-fluid{
+  margin: 15% auto 10% auto;
+  display: block;
+  max-width: 75%;
+}
+
+.leftblocks.container-fluid{
+  max-width: 55%;
+  text-align: right;
+  margin-top: 9px ;
+
+}
+
+.rightblocks.container-fluid{
+  max-width: 55%;
+  text-align: left;
+  margin-top: 9px ;
+}
+
+.col.text {
+  padding: 0%;
+  line-height: 2em;
+
+}
+
+.col.img {
+  padding: 0;
+}
+
+h4.card-title{
+  background-color:   none;
+}
+div.col-md-8{
+  background-color: none;
+}
+div.card-block {
+  background-color:   none;
+}
+div.container.py-3 {
+  width: 75%;
+}
+div.row {
+  background-color:   none;
+}
+.card {
+  background-color:   #fffded;
+  border: none;
+ }
+
+#payments.container-fluid{
+  margin: 5% auto 5% auto;
+  display: block;
+  max-width: 75%;
+}
+
+#about.jumbotron {
+   position: relative;
+  width: 75%;
+  padding: 2%;
+  margin: 0 auto;
+  text-align: center;
+  background: #888373;
+}
+
+.jumbotron.about2{
+  background-color: #fff;
+}
+#abouttext.container-fluid {
+  width: 75%;
+}
+img.logo-bottom {
+  width: 150px;
+}
+.footer {
+  display: block;
+  margin-top: 5%;
+  padding: 0% 12%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #888373;
+  color: white;
+  text-align: center;
+}
+.logo-bottom {
+  width: 10%;
+  margin-bottom: 1%;
+}
+.footer h2{
+  padding-bottom: 2%;
+}
+
+@media  (max-width: 1200px){
+  .jumbotron.top h1 {
+    font-size: 2em;
+  }
+div.jumbotron.top {
+  margin: -30% auto -5%;
+}
+h1 {
+    font-size:  1.5em;
+  }
+
+h2 {
+  font-size: 1.2em;
+}
+h3 {
+  font-size: 1em;
+}
+p {
+  font-size: .9em;
+}
+.navbar{
+  display: block;
+  position: fixed;
+  text-align: left;
+  margin: -45px;
+/* background-color: white; */
+z-index: 1;
+}
+
+div.navbar-collapse.collapse.show {
+  background-color: white;
+
+}
+
+
+  .rightblocks.container-fluid {
+    text-align: center;
+    padding-top: 2%;
+  }
+  .leftblocks.container-fluid {
+    text-align: center;
+  }
+  #services.container-fluid{
+    margin: 27% auto 10% auto;
+}
+
+@media (max-width: 664px){
+  .jumbotron.top h1 {
+    font-size: 1.7em;
+  }
+  div.jumbotron.top {
+    margin: -35% auto -5%;
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px){
+  .img-fluid.bg.top {
+    margin: -40% auto 0%;
+  }
+  div.jumbotron.top {
+    margin: -25% auto -5%;
+    width: 90%;
+  }
+  .jumbotron.top h1 {
+    font-size: 1.2em;
+  }
+}
