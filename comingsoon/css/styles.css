@@ -3,7 +3,7 @@ body {
   color: #5b5236;
   vertical-align: middle;
   text-align: center;
-font-size: 4em;
+font-size: 3.5em;
   margin: 0px;
 
 }
@@ -13,62 +13,51 @@ font-size: 4em;
   object-fit: cover;
   height: 100vh;
   position: relative;
-  margin: 0% auto 0%;
+  margin: 0% auto;
   z-index: -1;
 }
 
-div.jumbotron.top {
+/* div.jumbotron-fluid.top {
   position:absolute;
   display: inline;
-  width:100%;
+
   padding: 2%;
   margin: 10% auto;
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
-}
+} */
 
 h1 {
   font-size: 2.5em;
 }
-@media  (max-width: 1200px){
 
-  .jumbotron.top h1 {
-    font-size: 2em;
-  }
 
-/* h1 {
-    font-size:  1.5em;
-  }
 
-h2 {
-  font-size: 1.2em;
-}
-h3 {
-  font-size: 1em;
-}
-p {
-  font-size: .9em;
-} */
-
+  @media (max-width: 310px){
+  .img-fluid.bg.top {
+    object-fit: scale-down;
 
 }
 
 
 
-@media (max-width: 664px){
+@media screen and (max-width: 550px){
   .jumbotron.top h1 {
     font-size: 1.7em;
   }
 
+  }
 }
 
-@media (max-width: 450px) {
+ @media screen and  (max-width: 450px) {
   .jumbotron.top h1 {
     font-size: 1.2em;
   }
-}
-@media (max-width: 350px) {
+
+
+@media screen and (max-width: 350px) {
   .jumbotron.top h1 {
     font-size: 1em;
   }
+
 }
