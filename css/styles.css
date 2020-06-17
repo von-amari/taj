@@ -156,14 +156,12 @@ img.logo-bottom {
     margin: -25% auto -5%;
     width: 90%;
   }
-  
 }
 
 @media (min-width: 1200px) {
-  .img-fluid.bg.top{
+  .img-fluid.bg.top {
     margin-top: -10%;
   }
-
 }
 @media (max-width: 1201px) {
   .jumbotron.top h1 {
@@ -209,23 +207,33 @@ img.logo-bottom {
 /* height: 200%; */
 /* } */
 /* } */
-@media (max-width: 910px) {
+@media (max-width: 992px) {
   .jumbotron.top h1 {
     font-size: 2.3em;
   }
   .jumbotron.top {
-    margin-top: -45%;
+    margin-top: -75%;
   }
+  .about .img-fluid {
+    width: 45%;
+  }
+}
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .jumbotron.top h1 {
     font-size: 1.7em;
   }
   div.jumbotron.top {
-    margin: -55% auto 0%;
+    margin: -55% auto 10%;
     width: 90%;
   }
   #services.container-fluid {
-    margin: 37% auto 10% auto;
+    margin: 55% auto 10% auto;
+  }
+}
+@media (max-width: 600px) {
+  div.jumbotron.top {
+    margin: -70% auto 10%;
+    width: 90%;
   }
 }
