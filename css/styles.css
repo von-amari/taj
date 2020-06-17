@@ -66,6 +66,9 @@ div.jumbotron.top {
   display: block;
   max-width: 75%;
 }
+#services.container-fluid h1 {
+  margin: 10% auto 5% auto;
+}
 
 .leftblocks.container-fluid {
   max-width: 55%;
@@ -218,22 +221,52 @@ img.logo-bottom {
     width: 45%;
   }
 }
+@media (max-width: 900px) {
+  div.jumbotron.top {
+    margin: -45% auto 10%;
+    width: 90%;
+  }
+  #services.container-fluid {
+    margin: 35% auto 10% auto;
+  }
+}
 
 @media (max-width: 800px) {
   .jumbotron.top h1 {
     font-size: 1.7em;
   }
   div.jumbotron.top {
+    margin: -45% auto 10%;
+    width: 90%;
+  }
+  #services.container-fluid {
+    margin: 35% auto 10% auto;
+  }
+}
+@media (max-width: 700px) {
+  div.jumbotron.top {
     margin: -55% auto 10%;
     width: 90%;
   }
   #services.container-fluid {
-    margin: 55% auto 10% auto;
+    margin: 45% auto 10% auto;
   }
 }
 @media (max-width: 600px) {
   div.jumbotron.top {
-    margin: -70% auto 10%;
+    margin: -65% auto 10%;
     width: 90%;
+  }
+  #services.container-fluid {
+    margin: 50% auto 10% auto;
+  }
+}
+@media (max-width: 510px) {
+  div.jumbotron.top {
+    margin: -75% auto 10%;
+    width: 90%;
+  }
+  #services.container-fluid {
+    margin: 45% auto 10% auto;
   }
 }
