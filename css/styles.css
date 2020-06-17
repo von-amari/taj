@@ -121,7 +121,11 @@ img.logo-bottom {
 .footer h2 {
   padding: 2% 0;
 }
-
+/* @media (orientation: landscape) {
+  div.jumbotron.top {
+    margin: -227px auto 10%;
+    width: 90%;
+  } */
 @media (max-width: 1300px) {
   div.jumbotron.top {
     width: 90%;
@@ -165,6 +169,10 @@ img.logo-bottom {
 
   div.navbar-collapse.collapse.show {
     background-color: white;
+  }
+  div.jumbotron.top {
+    margin: -400px auto 10%;
+    width: 90%;
   }
 }
 
