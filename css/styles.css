@@ -188,7 +188,7 @@ img.logo-bottom {
   .navbar {
     display: block;
     position: fixed;
-    text-align: center;
+    text-align: left;
     margin: 0px;
     /* background-color: white; */
     z-index: 1;
