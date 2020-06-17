@@ -5,6 +5,7 @@ body {
   text-align: center;
   font-size: 1.2em;
   margin: 0px;
+  z-index: 1;
 }
 
 li {
@@ -50,10 +51,10 @@ h4 {
 }
 
 div.jumbotron.top {
-  position: relative;
+  position: sticky;
   width: 75%;
   padding: 2%;
-  margin: -27% auto 0;
+  margin: -427px auto 0;
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
 }
@@ -62,24 +63,11 @@ div.jumbotron.top {
 }
 
 #services.container-fluid {
-  margin: 15% auto 10% auto;
-  display: block;
+  margin: 20% auto 10% auto;
   max-width: 75%;
 }
 #services.container-fluid h1 {
   margin: 10% auto 5% auto;
-}
-
-.leftblocks.container-fluid {
-  max-width: 55%;
-  text-align: right;
-  margin-top: 9px;
-}
-
-.rightblocks.container-fluid {
-  max-width: 55%;
-  text-align: left;
-  margin-top: 9px;
 }
 
 .col.text {
@@ -89,26 +77,6 @@ div.jumbotron.top {
 
 .col.img {
   padding: 0;
-}
-
-h4.card-title {
-  background-color: none;
-}
-div.col-md-8 {
-  background-color: none;
-}
-div.card-block {
-  background-color: none;
-}
-div.container.py-3 {
-  width: 75%;
-}
-div.row {
-  background-color: none;
-}
-.card {
-  background-color: #fffded;
-  border: none;
 }
 
 #payments.container-fluid {
@@ -156,7 +124,6 @@ img.logo-bottom {
 
 @media (max-width: 1300px) {
   div.jumbotron.top {
-    margin: -25% auto -5%;
     width: 90%;
   }
 }
@@ -170,9 +137,7 @@ img.logo-bottom {
   .jumbotron.top h1 {
     font-size: 3em;
   }
-  div.jumbotron.top {
-    margin: -35% auto -5%;
-  }
+
   h1 {
     font-size: 1.5em;
   }
@@ -191,58 +156,47 @@ img.logo-bottom {
     position: fixed;
     text-align: left;
     margin: 0px;
-    /* background-color: white; */
+
     z-index: 1;
+  }
+  #services.container-fluid {
+    margin: 30% auto 10% auto;
   }
 
   div.navbar-collapse.collapse.show {
     background-color: white;
   }
-
-  #services.container-fluid {
-    margin: 27% auto 10% auto;
-  }
 }
 
-/* @media only screen and (max-width: 660px) {
-  /* .img-fluid.bg.top {
-    /* width: 100%; */
-/* height: 200%; */
-/* } */
-/* } */
 @media (max-width: 992px) {
   .jumbotron.top h1 {
     font-size: 2.3em;
   }
-  .jumbotron.top {
-    margin-top: -75%;
-  }
+
   .about .img-fluid {
     width: 45%;
+  }
+  #services.container-fluid {
+    margin: 40% auto 10% auto;
   }
 }
 @media (max-width: 900px) {
   div.jumbotron.top {
-    margin: -45% auto 10%;
+    /* margin: -45% auto 10%; */
     width: 90%;
   }
-  #services.container-fluid {
-    margin: 35% auto 10% auto;
-  }
+  /* #services.container-fluid {
+    margin: 15% auto 10% auto;
+  } */
 }
 
 @media (max-width: 800px) {
   .jumbotron.top h1 {
     font-size: 1.7em;
   }
-  div.jumbotron.top {
-    margin: -45% auto 10%;
-    width: 90%;
-  }
+
   #services.container-fluid {
-    margin: 35% auto 10% auto;
-    max-width: 90%;
-    padding: 10px;
+    margin: 50% auto 10% auto;
   }
   #abouttext.container-fluid {
     width: 100%;
@@ -252,32 +206,34 @@ img.logo-bottom {
   }
 }
 @media (max-width: 700px) {
-  div.jumbotron.top {
-    margin: -55% auto 10%;
-    width: 90%;
-  }
   #services.container-fluid {
-    margin: 45% auto 10% auto;
+    margin: 55% auto 10% auto;
   }
   #abouttext.container-fluid {
     width: 90%;
   }
 }
 @media (max-width: 600px) {
-  div.jumbotron.top {
+  /* div.jumbotron.top {
     margin: -65% auto 10%;
     width: 90%;
-  }
+  } */
   #services.container-fluid {
-    margin: 50% auto 10% auto;
+    margin: 65% auto 10% auto;
   }
 }
 @media (max-width: 510px) {
-  div.jumbotron.top {
+  /* div.jumbotron.top {
     margin: -75% auto 10%;
     width: 90%;
-  }
-  #services.container-fluid {
+  } */
+  /* #services.container-fluid {
     margin: 45% auto 10% auto;
+  } */
+}
+@media (max-width: 400px) {
+  div.jumbotron.top {
+    margin: -100% auto 10%;
+    width: 90%;
   }
 }
