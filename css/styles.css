@@ -121,11 +121,7 @@ img.logo-bottom {
 .footer h2 {
   padding: 2% 0;
 }
-/* @media (orientation: landscape) {
-  div.jumbotron.top {
-    margin: -227px auto 10%;
-    width: 90%;
-  } */
+
 @media (max-width: 1300px) {
   div.jumbotron.top {
     width: 90%;
@@ -176,7 +172,7 @@ img.logo-bottom {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-height: 300px) {
   .jumbotron.top h1 {
     font-size: 2.3em;
   }
@@ -185,7 +181,11 @@ img.logo-bottom {
     width: 45%;
   }
   #services.container-fluid {
-    margin: 40% auto 10% auto;
+    margin: 30% auto 10% auto;
+  }
+  div.jumbotron.top {
+    margin: -280px auto 10%;
+    width: 90%;
   }
 }
 @media (max-width: 900px) {
