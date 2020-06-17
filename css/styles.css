@@ -241,6 +241,14 @@ img.logo-bottom {
   }
   #services.container-fluid {
     margin: 35% auto 10% auto;
+    max-width: 90%;
+    padding: 10px;
+  }
+  #abouttext.container-fluid {
+    width: 100%;
+  }
+  #about.jumbotron {
+    width: 90%;
   }
 }
 @media (max-width: 700px) {
@@ -250,6 +258,9 @@ img.logo-bottom {
   }
   #services.container-fluid {
     margin: 45% auto 10% auto;
+  }
+  #abouttext.container-fluid {
+    width: 90%;
   }
 }
 @media (max-width: 600px) {
