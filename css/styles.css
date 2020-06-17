@@ -13,7 +13,7 @@ li {
   padding: 0 4em;
 }
 
-a{
+a {
   color: #5b5236;
 }
 
@@ -24,25 +24,23 @@ h4 {
   text-align: center;
   padding-bottom: 2%;
 }
-.logo.img-fluid{
+.logo.img-fluid {
   width: 150px;
   margin-bottom: -3%;
 }
 .img-fluid.bg.top {
   width: 100%;
-  position:relative ;
+  position: relative;
   margin: -28% auto 0%;
   z-index: -1;
 }
 
-.navbar{
+.navbar {
   display: inline-block;
   text-align: center;
   position: relative;
-  margin-top: -40%;
+  margin-top: 2%;
 }
-
-
 
 div.jumbotron.top {
   position: relative;
@@ -52,67 +50,65 @@ div.jumbotron.top {
   text-align: center;
   background: rgba(255, 255, 255, 0.6);
 }
-.jumbotron h1{
+.jumbotron h1 {
   font-size: 3.5em;
 }
 
-#services.container-fluid{
+#services.container-fluid {
   margin: 15% auto 10% auto;
   display: block;
   max-width: 75%;
 }
 
-.leftblocks.container-fluid{
+.leftblocks.container-fluid {
   max-width: 55%;
   text-align: right;
-  margin-top: 9px ;
-
+  margin-top: 9px;
 }
 
-.rightblocks.container-fluid{
+.rightblocks.container-fluid {
   max-width: 55%;
   text-align: left;
-  margin-top: 9px ;
+  margin-top: 9px;
 }
 
 .col.text {
   padding: 0%;
   line-height: 2em;
-
 }
 
 .col.img {
   padding: 0;
 }
 
-h4.card-title{
-  background-color:   none;
+h4.card-title {
+  background-color: none;
 }
-div.col-md-8{
+div.col-md-8 {
   background-color: none;
 }
 div.card-block {
-  background-color:   none;
+  background-color: none;
 }
 div.container.py-3 {
   width: 75%;
 }
 div.row {
-  background-color:   none;
+  background-color: none;
 }
 .card {
-  background-color:   #fffded;
+  background-color: #fffded;
   border: none;
- }
+}
 
-#payments.container-fluid{
+#payments.container-fluid {
   margin: 5% auto 5% auto;
   display: block;
   max-width: 75%;
 }
 
 #about.jumbotron {
-   position: relative;
+  position: relative;
   width: 75%;
   padding: 2%;
   margin: 0 auto;
@@ -120,7 +116,7 @@ div.row {
   background: #888373;
 }
 
-.jumbotron.about2{
+.jumbotron.about2 {
   background-color: #fff;
 }
 #abouttext.container-fluid {
@@ -144,44 +140,42 @@ img.logo-bottom {
   width: 10%;
   margin-bottom: 1%;
 }
-.footer h2{
-  padding-bottom: 2%;
+.footer h2 {
+  padding: 2% 0;
 }
 
-@media  (max-width: 1200px){
+@media (max-width: 1200px) {
   .jumbotron.top h1 {
     font-size: 2em;
   }
-div.jumbotron.top {
-  margin: -30% auto -5%;
-}
-h1 {
-    font-size:  1.5em;
+  div.jumbotron.top {
+    margin: -30% auto -5%;
+  }
+  h1 {
+    font-size: 1.5em;
   }
 
-h2 {
-  font-size: 1.2em;
-}
-h3 {
-  font-size: 1em;
-}
-p {
-  font-size: .9em;
-}
-.navbar{
-  display: block;
-  position: fixed;
-  text-align: left;
-  margin: -45px;
-/* background-color: white; */
-z-index: 1;
-}
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+  .navbar {
+    display: block;
+    position: fixed;
+    text-align: left;
+    margin: -45px;
+    /* background-color: white; */
+    z-index: 1;
+  }
 
-div.navbar-collapse.collapse.show {
-  background-color: white;
-
-}
-
+  div.navbar-collapse.collapse.show {
+    background-color: white;
+  }
 
   .rightblocks.container-fluid {
     text-align: center;
@@ -190,11 +184,19 @@ div.navbar-collapse.collapse.show {
   .leftblocks.container-fluid {
     text-align: center;
   }
-  #services.container-fluid{
+  #services.container-fluid {
     margin: 27% auto 10% auto;
+  }
 }
 
-@media (max-width: 664px){
+@media only screen and (max-width: 660px) {
+  .img-fluid.bg.top {
+    /* width: 100%; */
+    height: 200%;
+  }
+}
+
+@media (max-width: 664px) {
   .jumbotron.top h1 {
     font-size: 1.7em;
   }
@@ -204,7 +206,7 @@ div.navbar-collapse.collapse.show {
   }
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .img-fluid.bg.top {
     margin: -40% auto 0%;
   }
