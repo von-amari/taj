@@ -186,10 +186,10 @@ div.jumbotron.top {
     width: 45%;
   }
   #services.container-fluid {
-    margin: 30% auto 10% auto;
+    margin: 20% auto 10% auto;
   }
   div.jumbotron.top {
-    margin: -260px auto 10%;
+    margin: -160px auto 00%;
     width: 90%;
   }
 }
@@ -209,7 +209,7 @@ div.jumbotron.top {
   }
 
   #services.container-fluid {
-    margin: 30% auto 10% auto;
+    margin: 20% auto 10% auto;
   }
   #abouttext.container-fluid {
     width: 100%;
@@ -217,10 +217,13 @@ div.jumbotron.top {
   #about.jumbotron {
     width: 90%;
   }
+  div.jumbotron.top {
+    margin: -270px auto 10%;
+  }
 }
 @media (max-width: 700px) {
   #services.container-fluid {
-    margin: 25% auto 10% auto;
+    margin: 20% auto 10% auto;
   }
   #abouttext.container-fluid {
     width: 90%;
@@ -228,20 +231,28 @@ div.jumbotron.top {
 }
 @media (max-width: 600px) and (min-height: 300px) {
   div.jumbotron.top {
-    margin: -250px auto 10%;
+    margin: -270px auto 10%;
   }
-  /* #services.container-fluid {
+  #services.container-fluid {
+    margin: 30% auto 10% auto;
+  }
+}
+@media (max-width: 600px) and (orientation: portrait) {
+  div.jumbotron.top {
+    margin: -450px auto 30%;
+  }
+  #services.container-fluid {
     margin: 55% auto 10% auto;
-  } */
+  }
 }
 @media (max-width: 510px) {
   /* div.jumbotron.top {
     margin: -75% auto 10%;
     width: 90%;
   } */
-  /* #services.container-fluid {
-    margin: 45% auto 10% auto;
-  } */
+  #services.container-fluid {
+    margin: 70% auto 10% auto;
+  }
 }
 /* @media (max-width: 570px) and (min-height: 300px) and (orientation: landscape) {
   div.jumbotron.top {
@@ -251,7 +262,7 @@ div.jumbotron.top {
 } */
 @media (max-width: 400px) {
   #services.container-fluid {
-    margin: 35% auto 10% auto;
+    margin: 75% auto 10% auto;
   }
   div.jumbotron.top {
     margin: -250 auto 0;
